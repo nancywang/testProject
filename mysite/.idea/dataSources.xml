@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="517041555">
+    <data-source source="LOCAL" name="Django default" product="MySQL" version="5.5.24-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.29 ( Revision: alexander.soklakov@oracle.com-20140120140810-s44574olh90i6i4l )" uuid="a75542c9-7e24-45c1-9873-085c84dab24a">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://172.16.1.45:3306/blog</jdbc-url>
+      <user-name>brande</user-name>
+      <user-password>dfe7dfdcdfdcdf9ddfd2dfc7dff2dffcdfc0dfcedfecdf9ddff0dfe5dfeddfc7dfdddf99df9edfe8</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.PyCharm20/config/jdbc-drivers/mysql-connector-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.PyCharm20/config/jdbc-drivers/mysql-connector-java-5.1.29-bin.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
