@@ -21,7 +21,7 @@ def main():
     else:
         print "Creating Test Log File"
         print "="*80
-        print "'Create Test Log File  %s Succeed" % op.create_file()
+        print "Create Test Log File  %s Succeed" % op.create_file()
 # Create Test Data
     print "Starting to create test data"
     op.create_data()
