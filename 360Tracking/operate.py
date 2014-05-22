@@ -1,7 +1,8 @@
 __author__ = 'Admin'
+#-*- coding:utf-8 -*-
 import os
 import constant
-
+# import datetime
 
 base_path = constant.BASE_PATH
 test_date = constant.DATE
@@ -47,5 +48,35 @@ def create_data():
      li = constant.DATA_DICT
      for i in li:
          f.writelines(i)
-     print f.readlines()
+     # print f.readlines()
      f.close()
+
+class data_file:
+    # 定义基本属性
+    TIME = 0 ,
+    IP = '',
+    LP = '',
+    UA = '',
+    UID = '',
+    SID = 0,
+    SCREEN = '',
+    LANGUAGE = '',
+    URL = '',
+    REF_URL = '',
+    KEYWORD_ID = 0,
+    CREATIVE_ID = 0,
+    QIHU_UID = 0
+    def __init__(self, time, ip, lp, ua, uid, sid, screen, language, url, ref_url, keyword_id, creative_id, qihu_uid):
+        self.TIME = time
+        self.IP = ip
+        self.LP = lp
+        self.UA = ua
+        self.UID = uid
+        self.SID = sid
+        self.SCREEN = screen
+        self.LANGUAGE = language
+        self.URL = url
+        self.REF_URL = ref_url
+        self.KEYWORD_ID = keyword_id
+        self.CREATIVE_ID = creative_id
+        self.QIHU_UID = qihu_uid
